@@ -1,0 +1,35 @@
+.about-us{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    flex-wrap: wrap; 
+    overflow: hidden;
+    margin: 100px 0;
+}
+.about-us h2{
+    margin-bottom: 20px;
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.about-us span{
+    color: tomato;
+}
+.about-us p, ul{
+    line-height: 30px;
+}
+.about-us-content{
+    flex: 1;
+}
+.about-us-photo{
+    flex: 1;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    /* float: right; */
+}
+.about-us li span{
+    font-weight: bolder;
+    color: black;
+}

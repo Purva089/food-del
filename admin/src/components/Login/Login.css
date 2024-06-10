@@ -1,0 +1,86 @@
+/* Login.css */
+.login-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid rgb(11, 69, 47);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    font-size: 40px;
+    color: tomato;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    color: #414a4c;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: tomato;
+    outline: none;
+}
+
+.login-container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #414a4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: tomato;
+    transform: scale(1.05);
+}
+
+.logout-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
